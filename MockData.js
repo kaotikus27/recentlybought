@@ -60,55 +60,5 @@
       "id": "5ea9",
       "qnty": 1
     }
-  ],
-  "BoughtData": [
-    {
-      "id": "7c21",
-      "itemId": 1,
-      "name": "Hannah Gown",
-      "description": "Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit",
-      "size": "S",
-      "color": "Multicolor",
-      "stylenumber": "BROR-WD106",
-      "price": "38",
-      "image": "Rectangle 1r.png",
-      "qnty": 1
-    },
-    {
-      "id": "f6fc",
-      "itemId": 2,
-      "name": "Bag Flap",
-      "description": "Chevron Flap Crossbody Bag",
-      "size": "M",
-      "color": "Multicolor",
-      "stylenumber": "BROR-XD121",
-      "price": "5.77",
-      "image": "Rectangle 2r.png",
-      "qnty": 1
-    }
   ]
 }
-
-// Iterating through MockData
-console.log('MockData Items:');
-data.MockData.forEach(item => {
-  console.log(`ID: ${item.id}`);
-  console.log(`Name: ${item.name}`);
-  console.log(`Description: ${item.description}`);
-  console.log(`Size: ${item.size}`);
-  console.log(`Color: ${item.color}`);
-  console.log(`Price: $${item.price}`);
-  console.log('--------------------');
-});
-
-// Iterating through BoughtData
-console.log('BoughtData Items:');
-data.BoughtData.forEach(item => {
-  console.log(`ID: ${item.id}`);
-  console.log(`Name: ${item.name}`);
-  console.log(`Description: ${item.description}`);
-  console.log(`Size: ${item.size}`);
-  console.log(`Color: ${item.color}`);
-  console.log(`Price: $${item.price}`);
-  console.log('--------------------');
-});
