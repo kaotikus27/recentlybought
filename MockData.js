@@ -88,3 +88,27 @@
     }
   ]
 }
+
+// Iterating through MockData
+console.log('MockData Items:');
+data.MockData.forEach(item => {
+  console.log(`ID: ${item.id}`);
+  console.log(`Name: ${item.name}`);
+  console.log(`Description: ${item.description}`);
+  console.log(`Size: ${item.size}`);
+  console.log(`Color: ${item.color}`);
+  console.log(`Price: $${item.price}`);
+  console.log('--------------------');
+});
+
+// Iterating through BoughtData
+console.log('BoughtData Items:');
+data.BoughtData.forEach(item => {
+  console.log(`ID: ${item.id}`);
+  console.log(`Name: ${item.name}`);
+  console.log(`Description: ${item.description}`);
+  console.log(`Size: ${item.size}`);
+  console.log(`Color: ${item.color}`);
+  console.log(`Price: $${item.price}`);
+  console.log('--------------------');
+});
