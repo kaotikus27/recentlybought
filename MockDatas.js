@@ -1,6 +1,4 @@
-{
-  "MockDatas": [
-    {
+ {
       "itemId": 1,
       "name": "Hannah Gown",
       "description": "Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit",
